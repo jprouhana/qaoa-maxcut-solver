@@ -106,3 +106,4 @@ def get_maxcut_operator(G):
         pauli_terms.append((-0.5 * w, ''.join(pauli_str)))
 
     return pauli_terms, offset
+# TODO: extend to weighted graphs
